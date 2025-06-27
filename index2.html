@@ -1,0 +1,58 @@
+<!-- youtube-clone/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>YouTube Clone</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100">
+  <!-- Header -->
+  <header class="flex justify-between items-center px-4 py-2 bg-white shadow">
+    <div class="text-xl font-bold">YouTube</div>
+    <input type="text" placeholder="Search" class="border p-1 rounded w-1/2" />
+    <div class="w-8 h-8 bg-gray-300 rounded-full"></div>
+  </header>
+
+  <!-- Body -->
+  <div class="flex">
+    <!-- Sidebar -->
+    <aside class="w-64 bg-white h-screen p-4 shadow">
+      <ul>
+        <li class="mb-2 font-semibold">Home</li>
+        <li class="mb-2">Subscriptions</li>
+        <li class="mb-2">Library</li>
+      </ul>
+    </aside>
+
+    <!-- Main -->
+    <main class="p-4 h-12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+      <div class="bg-white shadow rounded p-2">
+        <div class="h-40 bg-gray-300 mb-2"></div>
+        <p class="font-semibold">Video Title</p>
+        <p class="text-sm text-gray-600">Channel Name</p>
+      </div>
+
+      <div class="bg-white shadow rounded p-2">
+        <div class="h-40 bg-gray-300 mb-2"></div>
+        <p class="font-semibold">Video Title</p>
+        <p class="text-sm text-gray-600">Channel Name</p>
+      </div>
+
+      <div class="bg-white shadow rounded p-2">
+        <div class="h-40 bg-gray-300 mb-2"></div>
+        <p class="font-semibold">Video Title</p>
+        <p class="text-sm text-gray-600">Channel Name</p>
+      </div>
+
+      <div class="bg-white shadow rounded p-2">
+        <div class="h-40 bg-gray-300 mb-2"></div>
+        <p class="font-semibold">Video Title</p>
+        <p class="text-sm text-gray-600">Channel Name</p>
+      </div>
+      <!-- Repeat above block for more videos -->
+    </main>
+  </div>
+</body>
+</html>

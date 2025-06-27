@@ -1,1 +1,37 @@
-<p>Hello world</p>
+<!-- gmail-clone/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gmail Clone</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="flex h-screen bg-gray-100">
+  <!-- Sidebar -->
+  <aside class="w-60 bg-white shadow p-4">
+    <button class="bg-red-500 text-white px-4 py-2 rounded mb-4">Compose</button>
+    <ul>
+      <li class="mb-2 font-bold">Inbox</li>
+      <li class="mb-2">Sent</li>
+      <li class="mb-2">Drafts</li>
+    </ul>
+  </aside>
+
+  <!-- Main -->
+  <main class="flex-1 p-4">
+    <header class="mb-4">
+      <input type="text" placeholder="Search mail" class="w-full p-2 border rounded" />
+    </header>
+
+    <section>
+      <div class="bg-white p-3 shadow rounded mb-2">
+        <p class="font-semibold">Subject: Meeting Today</p>
+        <p class="text-sm text-gray-600">From: boss@example.com</p>
+      </div>
+      <!-- Repeat for more emails -->
+    </section>
+  </main>
+</body>
+</html>
+

@@ -1,0 +1,31 @@
+<!-- slack-clone/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Slack Clone</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="h-screen flex">
+  <!-- Sidebar -->
+  <aside class="w-64 bg-gray-900 text-white p-4">
+    <h2 class="text-xl font-bold mb-4">Workspace</h2>
+    <ul>
+      <li class="mb-2"># general</li>
+      <li class="mb-2"># random</li>
+    </ul>
+  </aside>
+
+  <!-- Main Chat Area -->
+  <main class="flex-1 flex flex-col">
+    <header class="bg-white shadow p-2 font-semibold"># general</header>
+    <div class="flex-1 p-4 overflow-y-auto bg-gray-100">
+      <p><strong>User1:</strong> Hello 👋</p>
+    </div>
+    <footer class="p-2 bg-white border-t">
+      <input type="text" placeholder="Type a message..." class="w-full border rounded p-2" />
+    </footer>
+  </main>
+</body>
+</html>
